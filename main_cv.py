@@ -6,7 +6,7 @@ cur_dir = sys.argv[1] if len(sys.argv) > 1 else '.'
 # Specify the path to the hml file, 
 # Which is responsible for marking and building the frontal cascade
 
-faceCascade = cv2.CascadeClassifier('/Users/admin/PycharmProjects/computer_vision/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 video_capture = cv2.VideoCapture(0)
 
